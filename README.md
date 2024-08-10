@@ -53,7 +53,7 @@ This strong correlation suggests that Facebook ads are highly effective in drivi
 A correlation coefficient of 0.45 indicates a moderate positive linear relationship between clicks on AdWords ads and sales. While there is still a positive relationship, it is not as strong as with Facebook ads.
 
 
-HYPOTHESIS TESTING:
+- Step 6 :  HYPOTHESIS TESTING:
 
  Hypothesis: Advertising on Facebook will result in a greater number of conversions compared to advertising on AdWords. 
 
@@ -61,13 +61,14 @@ Null Hypothesis (H0): There is no difference in the number of conversions betwee
 
 Alternate Hypothesis (H1): The number of conversions from Facebook is greater than the number of conversions from AdWords.
 
-- Step 6 :  Finding out mean conversion for both Ad campaings.
+Finding out mean conversion for both Ad campaings.
 
 ![d](https://github.com/user-attachments/assets/44f4c864-3184-440e-a007-cb3389b7bd42)
 
 The mean number of conversions from Facebook ads (11.74) is substantially higher than the mean number of conversions from AdWords ads (5.98). This suggests that, on average, Facebook advertising is more effective in generating conversions compared to AdWords advertising.
 
 - Step 7 : Conducting ttest_ind test -> This is a test for the Null Hypothesis that two independent variables have identical average values.
+
 ![e](https://github.com/user-attachments/assets/bb50b4f9-195f-4912-8a74-7035eaa85ce8)
 
 The T statistic (32.88) is a measure of the difference between the means of the two groups relative to the variation within the groups. A larger T statistic indicates a greater difference between the means of the two groups.
@@ -77,12 +78,12 @@ The results strongly support the alternate hypothesis, indicating that the numbe
 
 RESULT: Facebook advertising appears to be a more effective channel for generating conversions compared to AdWords advertising, based on the sample data analyzed.
 
-REGRESSION ANALYSIS:
+- Step 8 : REGRESSION ANALYSIS:
 
 What will happen when I do go with the Facebook Ad? How many facebook ad conversions can I expect given a certain number of facebook ad clicks?
 
 Our independent variable - Facebook Ad Clicks and Dependent variable - Facebok Ad Conversions
-- Step 8 : Initializing linear regression model. When we perform prediction for a continuous variable then, evaluation metrics used is 'mean_squared_error' and 'R square score'.
+Initializing linear regression model. When we perform prediction for a continuous variable then, evaluation metrics used is 'mean_squared_error' and 'R square score'.
   
 ![f](https://github.com/user-attachments/assets/4e10a739-bd6f-4f3e-bc89-fae0170c3b30)
 
@@ -91,8 +92,8 @@ Our independent variable - Facebook Ad Clicks and Dependent variable - Facebok A
 ![h](https://github.com/user-attachments/assets/6ae71015-a12e-475c-bad7-b59525e88972)
 
 
-TIME SERIES ANALYSIS:
-- Step 10 : Analyzing Facebook campaign metrics over time.
+- Step 10 : TIME SERIES ANALYSIS:
+Analyzing Facebook campaign metrics over time.
 
      At what times of the month or days of the week do we observe the conversions?
 
